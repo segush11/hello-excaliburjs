@@ -1,0 +1,23 @@
+{
+  "name": "the-game",
+  "private": true,
+  "scripts": {
+    "start": "snowpack dev",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.32.X",
+    "@typescript-eslint/parser": "5.32.X",
+    "eslint": "8.21.X",
+    "eslint-config-prettier": "8.5.X",
+    "husky": "8.0.X",
+    "lint-staged": "13.0.X",
+    "prettier": "2.7.X",
+    "snowpack": "3.8.X",
+    "typescript": "4.7.X"
+  }
+}
